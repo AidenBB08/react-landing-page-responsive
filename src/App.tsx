@@ -1,6 +1,6 @@
 import { Layout } from "./components/Layout";
 import { AboutUs } from "./components/sections/AboutUs";
-import { Brands } from "./components/sections/Brands";
+import { Band } from "./components/sections/Band";
 import { CTA } from "./components/sections/CallToAction";
 import { Hero } from "./components/sections/Hero";
 import { Pricing } from "./components/sections/Pricing";
@@ -10,7 +10,7 @@ function App() {
   return (
     <Layout title="EdgeAI">
       <Hero />
-      <Brands />
+      <Band/>
       <Services />
       <AboutUs />
       <Pricing />
