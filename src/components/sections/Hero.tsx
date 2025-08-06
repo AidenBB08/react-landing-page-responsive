@@ -1,3 +1,4 @@
+import { Grids } from "../Grids";
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
@@ -8,14 +9,6 @@ export const Hero = () => {
     <section className="relative pt-32 lg:pt-36">
       {" "}
       <Container className="flex flex-col lg:flex-row gap-10 lg:gap-12 py-10">
-        <div className="absolute w-full lg:w-1/2 inset-y-0 lg:right-0">
-          <span
-            className="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 
-                        skew-x-12 rounded-3xl bg-gradient-to-r from-blue-600 to-violet-600
-                        blur-xl opacity-60 lg:opacity-95 lg:block hidden"
-          ></span>
-          <span className="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80"></span>
-        </div>
 
         <div
           className="relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start
@@ -72,7 +65,7 @@ export const Hero = () => {
 
         <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
           <img
-            src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg"
             alt="Hero image"
             width={2350}
             height={2359}
@@ -81,6 +74,7 @@ export const Hero = () => {
         </div>
       </Container>
       <Numbers />
+      <Grids/>
     </section>
   );
 };

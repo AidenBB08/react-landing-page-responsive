@@ -7,35 +7,35 @@ export const Numbers = () => {
         <div
           className="mx-auto lg:mx-0 p-5 sm:p-6 sm:py-8 max-w-5xl rounded-3xl bg-box-bg
                         border border-box-border shadow-lg shadow-box-shadow md:divide-x divide-box-border
-                        grid grid-cols-2 md:grid-cols-4"
+                        grid grid-cols-2 md:grid-cols-4 mb-30"
         >
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
               {" "}
-              100+{" "}
+              Consult{" "}
             </h2>
-            <p className="mt-2 text-heading-3"> AI Models Implemented</p>
+            <p className="mt-2 text-heading-3">Get in touch with a directed team</p>
           </div>
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
               {" "}
-              250+{" "}
+              Collect{" "}
             </h2>
-            <p className="mt-2 text-heading-3"> Enterprise Clients</p>
+            <p className="mt-2 text-heading-3"> Thoroughly conducted research on tailored needs</p>
           </div>
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
               {" "}
-              99.9%{" "}
+              Produce{" "}
             </h2>
-            <p className="mt-2 text-heading-3"> Uptime Guarantee</p>
+            <p className="mt-2 text-heading-3">Production of content based on collected Data</p>
           </div>
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
               {" "}
-              10+{" "}
+              Publish{" "}
             </h2>
-            <p className="mt-2 text-heading-3"> Years of Innovation</p>
+            <p className="mt-2 text-heading-3">Watch your business attraction flourish</p>
           </div>
         </div>
       </Container>
