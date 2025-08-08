@@ -1,31 +1,31 @@
 export const pricingPlans = [
   {
     title: "Basic",
-    price: "$19/mo",
+    price: "£79.99",
     features: [
-      "Access to basic AI tools",
+      "Consultation",
       "Limited data analytics",
       "Email support",
+      "Limited photos"
     ],
   },
   {
     title: "Pro",
-    price: "$49/mo",
+    price: "£99.99",
     features: [
       "Everything in Basic",
-      "Advanced AI features",
-      "Real‑time analytics",
+      "24/7 analytics support",
       "Priority email support",
     ],
     bestValue: true,
   },
   {
-    title: "Enterprise",
-    price: "$99/mo",
+    title: "Deluxe",
+    price: "£149.99",
     features: [
       "Everything in Pro",
-      "Dedicated account manager",
-      "Custom integrations",
+      "Expert team analytics",
+      "Maximum photo creation",
       "24/7 premium support",
     ],
   },

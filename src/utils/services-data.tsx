@@ -1,7 +1,7 @@
 export const services = [
   {
-    title: "Intelligent Automation",
-    description: "Streamline processes and reduce manual tasks.",
+    title: "Marketing Consultations",
+    description: "Team dedicated research and indepth look into how to improve your business.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +20,8 @@ export const services = [
     ),
   },
   {
-    title: "Real‑Time Analytics",
-    description: "Gain actionable insights as events unfold.",
+    title: "Performance Analytics",
+    description: "Trend and success monitoring with detailed insight.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +40,8 @@ export const services = [
     ),
   },
   {
-    title: "Predictive Insights",
-    description: " Anticipate trends and mitigate risks before they occur.",
+    title: "Tailored Production",
+    description: "Full shoots to forward businesses publicity.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

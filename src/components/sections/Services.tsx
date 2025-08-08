@@ -10,10 +10,9 @@ export const Services = () => {
       {" "}
       <Container className="space-y-10 md:space-y-12">
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <Title> Our AI Services</Title>
+          <Title> Our Services</Title>
           <Paragraph>
-            Unlock the potential of advanced machine learning, natural language
-            processing, and predictive analytics. Our services include:
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eum. Reprehenderit quae minima aut culpa iste, ipsum aspernatur eum minus quasi ipsam autem blanditiis deleniti expedita provident illum earum laborum?
           </Paragraph>
         </div>
 

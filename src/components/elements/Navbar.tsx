@@ -1,5 +1,6 @@
 
-import logo from '../../../public/assets/vite.svg'
+import logoLight from '../../../public/assets/icon (3).svg'
+import logoDark from '../../../public/assets/icon (5).svg'
 import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useThemeStore } from "../../store/ThemeStore";
@@ -20,9 +21,13 @@ export const Navbar = () => {
         <nav className=" flex items-center gap-4 px-4">
           {/* Logo */}
           <div className="inline-flex relative items-center">
-            <a href="/" className="flex items-center gap-3">
-              <img src={logo} alt="EdgeAI Logo" className="w-10 h-10" />
-              <div className="text-lg font-semibold text-heading-1">EdgeAI</div>
+            <a href="/" className="flex items-center gap-10">
+              <img
+                src={theme === 'dark' ? logoDark : logoLight}
+                alt="EdgeAI Logo"
+                className="w-10 h-10"
+              />
+              <div className="text-lg font-semibold text-heading-1">ST✦R</div>
             </a>
           </div>
 

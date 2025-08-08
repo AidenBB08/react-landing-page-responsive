@@ -48,8 +48,8 @@ export const Pricing = () => {
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-8">
-                    <Button className="w-full transform transition-transform duration-300 hover:scale-105 text-white">
+                  <div className="mt-8 justify-center">
+                    <Button className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl text-white">
                       Choose Plan
                     </Button>
                   </div>
