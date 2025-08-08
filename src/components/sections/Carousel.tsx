@@ -27,7 +27,7 @@ export const Carousel = () => {
             key={i}
             src={src}
             alt={`Slide ${i + 1}`}
-            className={`w-full transition-opacity rounded-[2.25rem] duration-500 h-170 object-cover ${
+            className={`w-full rounded-[2.25rem] transition-transform duration-500 h-170 object-cover ${
               i === currentIndex ? "opacity-100" : "opacity-0 absolute top-0 left-0"
             }`}
           />

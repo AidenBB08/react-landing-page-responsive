@@ -9,7 +9,7 @@ import { Services } from "./components/sections/Services";
 
 function App() {
   return (
-    <Layout title="Test">
+    <Layout title="ST✦R ">
       <Hero />
       <Band/>
       <Services />
