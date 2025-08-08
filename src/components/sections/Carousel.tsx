@@ -37,7 +37,7 @@ export const Carousel = () => {
       <div className="flex justify-between mt-4">
         <button
           onClick={prevSlide}
-           className="py-4 px-6 rounded-3xl bg-box-bg text-red-50 cursor-pointer hover:bg-violet-50"
+           className="py-4 px-6 rounded-3xl bg-box-bg text-black  cursor-pointer hover:bg-violet-50"
         >
           ‹
         </button>
