@@ -6,18 +6,21 @@ import { Carousel } from "./components/sections/Carousel";
 import { Hero } from "./components/sections/Hero";
 import { Pricing } from "./components/sections/Pricing";
 import { Services } from "./components/sections/Services";
+import { Container } from "./components/shared/Container";
 
 function App() {
   return (
-    <Layout title="ST✦R ">
-      <Hero />
-      <Band/>
-      <Services />
-      <Carousel/>
-      <AboutUs />
-      <Pricing />
-      <CTA />
-    </Layout>
+    <Container className="floatIn">
+      <Layout title="ST✦R">
+        <Hero />
+        <Band />
+        <Services />
+        <Carousel/>
+        <AboutUs />
+        <Pricing/>
+        <CTA />
+      </Layout>
+    </Container>
   );
 }
 

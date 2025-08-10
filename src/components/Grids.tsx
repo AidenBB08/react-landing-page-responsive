@@ -17,7 +17,7 @@ const cardData = [
 
 export const Grids = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-20 mx-auto ">
+    <div className="flex flex-wrap justify-center gap-20 mx-auto floatIn">
 
       {cardData.map((card, index) => (
         <div className='bg-gradient-to-r from-blue-600 to-violet-600 p-1.5 rounded-xl'>
